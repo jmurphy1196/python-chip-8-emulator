@@ -22,7 +22,7 @@ class Game:
         clock = pygame.time.Clock()
         self._screen.create_window()
         self._memory.load_rom_data(
-            f"{os.getcwd()}/roms/{self.rom}.ch8")
+            f"{os.getcwd()}/roms/{self.rom}")
 
         print(str(self._memory))
         print("=====================================")
