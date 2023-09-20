@@ -37,6 +37,8 @@ class Game:
             self._cpu.cycle()
             self._cpu.cycle()
             self._cpu.cycle()
+            self._cpu.cycle()
+            self._cpu.cycle()
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
