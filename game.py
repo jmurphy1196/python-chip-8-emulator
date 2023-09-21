@@ -10,6 +10,7 @@ class Game:
 
     def __init__(self, rom) -> None:
         pygame.init()
+        pygame.mixer.init()
         self._speed = 1  # speed of the game, instructions can be given 700 times a second speed = 1 = 700 instructions per second
         self._screen = Screen(scale=20)
         self._memory = Memory()
